@@ -1,0 +1,112 @@
+.form-all {
+font: 300 18.75px "Source Sans Pro", sans-serif !important;
+margin-top: -20px !important;
+}
+.form-line {
+padding: 20px 0 0 0;
+width: 100%;
+box-sizing: border-box;
+}
+.form-line-active {
+background: none;
+}
+.form-line-error {
+background: none;
+}
+.form-all textarea, .form-all input {
+font: 300 18.75px "Source Sans Pro", sans-serif !important;
+padding-left: 4px;
+width: 100%;
+box-sizing: border-box;
+}
+.form-all input[type="radio"] {
+width: auto;
+}
+.form-dropdown {
+font: 300 18.75px "Source Sans Pro", sans-serif !important;
+width: 100% !important;
+}
+option {
+font: 300 18.75px "Source Sans Pro", sans-serif !important;
+}
+.form-address-table {
+width: 100%;
+}
+.form-address-table .form-sub-label-container {
+width: 100%;
+}
+td[width="50%"] {
+width: 47.25%;
+}
+td + td {
+width: 49%;
+padding-left: 2%;
+}
+.form-sub-label-container {
+margin-right: 2%;
+width: 49%;
+}
+.form-sub-label {
+font: 300 12px "Source Sans Pro", sans-serif !important;
+color: #777 !important;
+}
+button {
+/* What it would be ideally: */
+font: 500 16px "jubilat", serif !important;
+/* What it is for now: */
+font: 600 16px "source sans pro", sans-serif !important;
+padding: 10px 20px;
+background-color: #FFD200;
+color: #003E7E;
+text-transform: capitalize;
+transition: .3s all;
+border: none;
+}
+@media only screen and (max-device-width: 550px) {
+.form-button-wrapper {
+margin: 0 !important;
+}
+}
+.form-submit-button, .form-submit-reset, .form-submit-print, .form-screen-button {
+padding: 10px 20px; /* Copy from button rule */
+}
+button:hover {
+background-color:#FFE04D;
+cursor: pointer;
+}
+.form-input .form-error-message, .form-input-wide .form-error-message {
+font: 300 16px "Source Sans Pro", sans-serif;
+}
+/* Prevent active section background color changing */
+.form-line-active {
+background-color:inherit;
+}
+body {
+/* Prevent scrollbars */
+overflow: hidden;
+}
+.form-all {
+width: 100%;
+}
+/* START delete for single column style, keep for a two column style */
+.form-section, .form-section-closed {
+width: 100%;
+height: auto !important;
+float: left;
+margin-left: 0;
+box-sizing: border-box;
+clear: none;
+}
+.form-collapse-table {
+display: none;
+}
+@media only screen and (min-width: 550px) {
+.form-section, .form-section-closed {
+width: 48%;
+margin-left: 4%;
+}
+.form-section:nth-child(1), .form-section-closed:nth-child(1) {
+margin-left: 0;
+}
+}
+/* END delete for single column style, keep for a two column style */
