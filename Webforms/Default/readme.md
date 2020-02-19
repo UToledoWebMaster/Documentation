@@ -1,6 +1,6 @@
 # Webforms
 
-## Steps to implementing a webform (does not apply to webforms on the Your Tomorrow site)
+## Steps to implementing a webform
 
 1. Create a form on https://webforms.utoledo.edu/
 2. Be sure to "Shrink" every piece of the form.

@@ -1,0 +1,123 @@
+.form-section {
+color: #2E2E2D;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 700;
+}
+.form-label-top,
+.form-label-left,
+.form-checkbox-item label {
+display: none;
+}
+.form-label-left {
+display: inline-block; /* Necessary since labels are otherwise hidden */
+font-size: 16px;
+margin-top: 4px;
+margin-bottom: 4px;
+margin-left: 10px;
+text-transform: uppercase;
+float: none;
+width: auto !important;
+}
+.form-label-left + div {
+float: left;
+}
+.form-all input, .form-all select {
+height: 30px;
+border:1px solid gray;
+padding-left: 8px;
+font-size: 14px;
+font-weight: bold;
+}
+.form-dropdown {
+height: 30px;
+padding-left: 8px;
+font-size: 14px;
+font-weight: bold;
+}
+.form-checkbox {
+width: 30px !important;
+height: 30px !important;
+}
+.form-checkbox-item {
+float: none;
+margin-top: 0;
+}
+textarea {
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: bold;
+font-size: 16px;
+padding-left: 5px;
+padding-top: 5px;
+}
+textarea::placeholder {
+color: #BDBBB5;
+}
+.form-submit-button {
+background-color: #FFD200;
+border: none;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 900;
+text-transform: uppercase;
+color: #003E7E;
+font-size: 38px;
+padding-top: 8px;
+padding-bottom: 8px;
+transition: .3s background-color;
+cursor: pointer;
+width: 100%;
+}
+.form-submit-button:hover {
+background-color: #FFE04D;
+}
+.form-all input::placeholder {
+color: #BDBBB5;
+}
+.form-line-active {
+background: none;
+}
+.form-line-error {
+background: none;
+}
+.form-error-message {
+display: none;
+}
+iframe body {
+background-color: #003E7E;
+color: white;
+}
+.form-line {
+width: 100%;
+box-sizing: border-box;
+padding-left: 0;
+padding-right: 0;
+}
+.form-all textarea, .form-all input {
+width: 100%;
+box-sizing: border-box;
+border: 1px solid gray !important;
+}
+.form-all input[type="radio"] {
+width: auto;
+}
+.form-dropdown {
+width: 100% !important;
+}
+.form-address-table {
+width: 100%;
+}
+td[width="50%"] {
+width: 47.25%;
+}
+td + td {
+width: 49%;
+padding-left: 2%;
+}
+.form-sub-label-container {
+margin-right: 2%;
+width: 49%;
+}
+.form-all {
+width: 100%;
+font-size: 14px;
+padding: 0;
+}
