@@ -1,2 +1,1 @@
-
-
+<div class="fullWidthVideo"><iframe src="https://www.website.com/embed/?videoID=123456789"></iframe></div>
