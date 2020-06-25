@@ -8,6 +8,9 @@ font-weight: 700;
 .form-checkbox-item label {
 display: none;
 }
+.form-all input, .form-all select, .form-all textarea{
+color: #2e2e2d;
+}
 .form-label-left {
 display: inline-block; /* Necessary since labels are otherwise hidden */
 font-size: 16px;
@@ -21,18 +24,18 @@ width: auto !important;
 .form-label-left + div {
 float: left;
 }
-.form-all input, .form-all select {
-height: 30px;
+.form-all input, .form-all select, .form-all textarea {
 border:1px solid gray;
 padding-left: 8px;
-font-size: 14px;
 font-weight: bold;
+font-size: 16px;
+font-family: 'Source Sans Pro', sans-serif;
 }
-.form-dropdown {
+.form-all select {
+    padding-left: 4px;
+}
+.form-all input, .form-all select {
 height: 30px;
-padding-left: 8px;
-font-size: 14px;
-font-weight: bold;
 }
 .form-checkbox {
 width: 30px !important;
