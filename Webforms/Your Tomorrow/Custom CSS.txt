@@ -124,3 +124,22 @@ width: 100%;
 font-size: 14px;
 padding: 0;
 }
+@media only screen and (max-device-width: 550px) {
+    .form-textarea {
+        width: 100% !important;
+    }
+    .form-textbox, .form-textarea, .form-dropdown, .form-list {
+        -webkit-border-radius: 0;
+        -webkit-box-shadow: none;
+        -moz-border-radius: 0;
+        -moz-box-shadow: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .form-submit-button, .form-submit-reset {
+        line-height: normal;
+    }
+    .form-buttons-wrapper {
+        margin: 0 !important;
+    }
+}
